@@ -9,4 +9,8 @@ def collatz(number:int):
         return collatz(expressionVal)
 
 x=collatz(25)
+<<<<<<< HEAD
 print(x)
+=======
+print(x)
+>>>>>>> 355fbe98026eb984a43c1aa13bd1f0ed17667231
