@@ -1,22 +1,14 @@
 class LongestSubstringLength():
     def longestSubstringLength(self,s):     
-        def substr(string):
-            subStringsCom=[]
-            x=len(string)
-            for i in range(x):
-                subStringsCom.append(string[0:x])
-                x-=1
-            return subStringsCom
         def subStrings(string:str):
-            allSubStr=[]
-            while True:
-                if len(string)==1:
-                    allSubStr.append([string])
-                    break
-                _substrCom=substr(string)
-                allSubStr.append(_substrCom)
-                string=string.replace(string[0],'',1)
-            return allSubStr
+            sbtrs=[]
+            for i in range(len(string)):
+                x=len(string)
+                for i in range(x):
+                    sbtrs.append(string[0:x])
+                    x-=1
+                string = string.replace(string[0],'',1)
+            return  sbtrs
         def check(collection:list):
             validSbtr=[]
             for i in collection:
