@@ -1,6 +1,5 @@
 # !/bin/python3.10.1
 def minion_game(string):
-    # your code goes here
     kevin_score = 0
     stuart_score = 0
     sbtrs = []
@@ -12,7 +11,7 @@ def minion_game(string):
         string = string.replace(string[0],'',1)
     
     for sbtr in sbtrs:
-        if sbtr.startswith("A" or "E" or "I" or "O" or "U"):
+        if sbtr.startswith("A") or sbtr.startswith("E") or sbtr.startswith("I") or sbtr.startswith("O") or sbtr.startswith("U"):
             kevin_score +=1
         else:
             stuart_score += 1
