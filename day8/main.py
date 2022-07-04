@@ -8,6 +8,7 @@ reset  = '\u001b[0m'
 
 
 def store_window(store):
+    
     tasks = ("All Books", "Add Book", "Remove Book", "Exit")
     print(yellow,end="")
     print(("Welcome to "+store.name).center(50))

@@ -1,0 +1,19 @@
+{
+    "User1" :{
+        "name" : "Mohit BK",
+        "email" : "bkmohit6@gmail.com",
+        "password" : "Mohit@123"
+    },
+    "User2" :{
+        "name" : "Sunil Sign Thakuri",
+        "email" : "sunil12@gmail.com",
+        "password" : "Sunil@123"
+    },
+    "User3" :{
+        "name" : "Yubraj Khatri",
+        "email" : "yubrajkhatri299@gmail.com",
+        "password" : "Yubraj@123"
+    }
+    
+    
+}
