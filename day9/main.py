@@ -4,7 +4,7 @@ from firebase_admin import credentials
 
 cred = credentials.Certificate("storemanagement-private-key.json")
 firebase_admin.initialize_app(cred,{
-    "databaseURL" : "https://storemanagement-4f615-default-rtdb.firebaseio.com/"
+    "databaseURL" : "..."
 })
 
 
