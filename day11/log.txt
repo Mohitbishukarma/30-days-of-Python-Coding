@@ -1,0 +1,15 @@
+# input >>>>>>>>> takes nth equitons 
+# processing() >>>>>  functions which contins ll logic of solving eqution 
+# augmented metric [[coeff. of x],[coeff. of y] , [coeff. of ...],[constnts]]
+# total no. of determinants should be found >> total no. variables + 1
+
+
+#check box:
+taking input and processing input is done .
+calculation > completed
+    finding D,D1,D2,D3
+    finding solutions
+    outputing solutions
+
+#Bugs:
+    handling (= -interger) situation
